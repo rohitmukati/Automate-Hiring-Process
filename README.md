@@ -3,7 +3,7 @@
 # Automate Hiring Process
 
 ## 📌 Overview
-This project automates the hiring process using AI agents. It extracts information from resumes, fetches GitHub and LinkedIn data, and matches candidates with job descriptions.
+This project automates the hiring process using AI agents. It extracts information from resumes, fetches GitHub and LinkedIn data, and matches candidates with job descriptions and assign score.
 
 ## 🚀 Features
 - **Resume Parsing**: Extracts skills, experience, education, and links from resumes.
@@ -66,5 +66,5 @@ python main.py
 - Push and create a PR!
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the Aapache License.
 
