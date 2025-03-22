@@ -46,7 +46,7 @@ Create a `.env` file and add your keys:
 GEMINI_API_KEY=your_key_here
 GITHUB_ACCESS_TOKEN=your_token_here
 LINKEDIN_API_KEY=your_key_here
-GOOGLE_SHEET_ID=your_sheet_id_here
+GOOGLE_SHEET_ID=your_sheet_id_here   ## add your json file client id for sheet, you can get your json file from google developer credentials page.
 ```
 ### 4️⃣ Run the Program
 ```bash
