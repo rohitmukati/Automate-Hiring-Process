@@ -48,7 +48,7 @@ GOOGLE_SHEET_JSON_PATH=your_json_file_path   ## add your json file client id for
 GOOGLE_SHEET_ID=your_sheet_id_here    ## you can find id from inside link of your google sheet
 ```
 ## FOR GOOGLE_SHEET_JSON_PATH & GOOGLE_SHEET_ID SETUP
-1. Follow this GOOGLE_SHEET_SETUP.md setup guide.
+1. Follow this [GOOGLE_SHEET_SETUP.md](https://github.com/rohitmukati/Automate-Hiring-Process/blob/main/GOOGLE_SHEET_SETUP.md) setup guide.
 
 ### 4️⃣ Run the Program
 ```bash
