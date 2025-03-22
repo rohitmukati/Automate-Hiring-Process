@@ -1,5 +1,3 @@
-# Automate-Hiring-Process
-
 # Automate Hiring Process
 
 ## 📌 Overview
