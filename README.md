@@ -66,5 +66,5 @@ python main.py
 - Push and create a PR!
 
 ## 📜 License
-This project is licensed under the Aapache License.
+This project is licensed under the Apache-2.0 license.
 
