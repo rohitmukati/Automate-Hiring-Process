@@ -1,0 +1,11 @@
+crewai
+pdfplumber
+pymupdf
+spacy
+requests
+python-dotenv
+beautifulsoup4
+gspread 
+google-auth
+pdf2docx 
+python-docx
