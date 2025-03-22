@@ -12,7 +12,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 def get_score(resume_data, job_description):
     # ✅ Prompt ke liye JSON ko readable format me convert karo
-    print("Getting Score of Student")
+    print("Getting Score of of resume data with job description")
     resume_data_str = json.dumps(resume_data, indent=2)
     
     prompt = f"""

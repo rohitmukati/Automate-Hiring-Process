@@ -19,6 +19,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 def extract_text_from_docx(file_path):
     """DOCX file se text extract karne ka function"""
+    print("Extracting text from DOCX...")
     text = []
     try:
         doc = Document(file_path)
@@ -36,16 +37,19 @@ def extract_text_from_docx(file_path):
 
 ## Extracting text
 def extract_text_from_pdf(file_path):
+    print("Extracting text from PDF...")
     with pdfplumber.open(file_path) as pdf:
         text = ''
         for page in pdf.pages:
             text += page.extract_text() + '\n'  
+    print("Extracted text from PDF:" , text)
     return text
 
 
 
 
 def extracting_text_from_resume(pdf_path):
+    print("checking file format")
     if pdf_path.endswith(".pdf"):
         text = extract_text_from_pdf(pdf_path)
         return text
@@ -61,6 +65,7 @@ def extracting_text_from_resume(pdf_path):
 
 # ✅ LLM se skills, experience, education extract karo
 def extract_with_gemini(text):
+    print("Extracting information with Gemini...")
     prompt = f"""
     Extract the following information from this resume:
     1. Skills
@@ -102,9 +107,7 @@ def extract_with_gemini(text):
 
 # ✅ Final Parsing Function
 def parse_resume(pdf_path):
-    print(f"Extracting data from resume:")
     text = extracting_text_from_resume(pdf_path)
-    print("Fetching Information from Extracted Data")
     data = extract_with_gemini(text)
     return data
 

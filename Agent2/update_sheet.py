@@ -36,10 +36,6 @@ def update_sheet(json_data, score):
     phone = data["Phone"]
     city = data["City"]
 
-    # name = data.get("Name")
-    # email = data.get("Email")
-    # phone = data.get("Phone")
-    # city = data.get("City")
     
     SERVICE_ACCOUNT_FILE = GOOGLE_SHEET_JSON_PATH
 
@@ -63,4 +59,4 @@ def update_sheet(json_data, score):
     data = [name, email, phone, city, score]  # Input data yaha dalna
     sheet.append_row(data)  # Data last row me add hoga
 
-    print("Data inserted successfully!")
+    print("** Data inserted successfully! **")
