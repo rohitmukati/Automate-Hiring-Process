@@ -1,8 +1,8 @@
-from Agent1.gemini_extractor import parse_resume
-from Agent1.links_extractor import classify_links
-from Agent1.github_extractor import extract_github_profiles
+from Data_Extraction.gemini_extractor import parse_resume
+from Data_Extraction.links_extractor import classify_links
+from Data_Extraction.github_extractor import extract_github_profiles
 
-def run_agent1(file_path):
+def run_pipeline(file_path):
     # ✅ Step 1: Resume data extract karo using Gemini
     resume_data = parse_resume(file_path)
     # print("\n🟢 Resume Data:\n", resume_data)
