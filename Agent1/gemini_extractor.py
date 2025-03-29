@@ -74,16 +74,15 @@ def extract_with_gemini(text):
     4. Email
     5. Phone
     6. Prjoects
-    Ensure that in project Just list down project name and the tech stack used in that project , Dont Describe hole project
-    
-    Just only add relevent things dont try to ad all the explanation 
+    Ensure that in project Just list down project name and the tech stack used in that project , Dont Describe hole project,
+    Just only add relevent things dont try to add all the explanation 
     Ensure that in education it only contain name of school and collage with degree and year of passing.
 
     
     Resume:
     {text}
     And if you didn't get any information then place null
-    if resume text is empty then just place null
+    if resume text is empty then just place null and return the output in JSON format like this:
     Return the output in JSON format like this:
     {{
       "Name": "Name",
@@ -92,7 +91,7 @@ def extract_with_gemini(text):
       "City": "City",
       "Education": ["college name", "degree", "year of passing", ...],
       "Skills": ["skill1", "skill2", ...],
-      "Experience": ["experience1", "experience2",...],
+      "Experience": ["experience1 2021-2022", "experience2 may-jun","No Experience",...],
       "Projects": ["project1", "project2", ...]
     }}
     """

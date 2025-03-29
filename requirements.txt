@@ -9,3 +9,4 @@ gspread
 google-auth
 pdf2docx 
 python-docx
+google-generativeai

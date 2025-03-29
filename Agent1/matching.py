@@ -30,9 +30,20 @@ Compare **only** the skills and experience with the job description and return a
 2. Matching Experience
 3. Missing Skills
 4. Overall Fit Percentage
+More Foucus on their Skills and Experience for the score.
 
 ### Output Format (Strictly return only this format, no extra text):
-[99]
+99
+After evaluating the candidate's resume and analyzing the job description,
+determine the most suitable job role that aligns with their skills, experience, and qualifications.
+Provide a concise yet specific job title (e.g., Java Developer, Data Analyst, Machine Learning Engineer, intern, Ai intern) that best fits the candidate's profile and industry standards.
+give me final output for bothe score and job title in this format:
+in json format:
+
+{{
+    "score": 99,
+    "job_title": "Best Suitable profile"
+}}
 """
 
     
