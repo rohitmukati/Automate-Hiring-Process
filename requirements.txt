@@ -1,0 +1,17 @@
+crewai
+pdfplumber
+pymupdf
+spacy
+requests
+python-dotenv
+beautifulsoup4
+gspread 
+google-auth
+pdf2docx 
+python-docx
+google-generativeai
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+PyDrive
+base64
