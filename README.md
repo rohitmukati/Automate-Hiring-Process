@@ -17,16 +17,39 @@ This project automates the hiring process using AI agents. It extracts informati
 ## 📂 Project Structure
 ```
 📦 Automate-Hiring-Process
-├── Agent1
-│   ├── agent1.py          # Resume parsing
-│   ├── gemini_extractor.py # Extracts structured data
-├── Agent2
-│   ├── matching.py        # Candidate-job matching logic
-│   ├── update_sheet.py    # Google Sheets integration
-├── main.py                # Runs the pipeline
-├── requirements.txt       # Dependencies
-└── README.md              # Project documentation
-```
+├── 📁 Data_Extraction
+│   ├── gemini_extractor.py
+│   ├── github_extractor.py
+│   ├── links_extractor.py
+│   ├── matching.py
+│   └── pipeline.py
+│
+├── 📁 Frontend
+│   └── dashboard.py
+│
+├── 📁 Google_Services
+│   ├── find_all_files_ids_in_all_folders.py
+│   ├── main.py
+│   ├── move_file.py
+│   └── update_sheet.py
+│
+├── 📁 Resumes
+│   ├── Rohit_GenAi (1).pdf
+│   ├── Rohit_mukati_Resume.pdf
+│   ├── temp_Genai.pdf
+│   ├── temp_Gourav_Panchal Resume.pdf
+│   └── temp_Rohit_GenAi.pdf
+│
+├── .gitignore
+├── GOOGLE_SHEET_SETUP.md
+├── Genai.pdf
+├── LICENSE
+├── README.md
+├── app.py
+├── app2.py
+├── main.py
+├── requirements.txt
+
 
 ## ⚙️ Setup & Installation
 ### 1️⃣ Clone the Repository
